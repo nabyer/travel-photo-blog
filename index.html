@@ -37,31 +37,26 @@
       </nav>
 
       <div class="container-fluid mt-5">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="card">
-                    <img src="assets/images/prague1.jpg" class="card-img-top" alt="Travel Photo of Prague">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+              <img src="assets/images/prague1.jpg" class="d-block w-50 mx-auto" alt="Photo 1"> 
             </div>
-            <div class="col-lg-4">
-                <div class="card">
-                    <img src="assets/images/prague2.jpg" class="card-img-top" alt="Travel Photo of Prague">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
+            <div class="carousel-item text-center"> 
+              <img src="assets/images/prague2.jpg" class="d-block w-50 mx-auto" alt="Photo 2"> 
             </div>
-            <div class="col-lg-4">
-                <div class="card">
-                    <img src="assets/images/prague3.jpg" class="card-img-top" alt="Travel Photo of Prague">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
+            <div class="carousel-item text-center">
+              <img src="assets/images/prague3.jpg" class="d-block w-50 mx-auto" alt="Photo 3">
             </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
 
